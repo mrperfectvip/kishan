@@ -1,0 +1,73 @@
+nav {
+  position: absolute;
+  animation: run linear 0.7s;
+}
+
+@keyframes run {
+  0% {
+    top: -60px;
+  }
+  100% {
+    top: 0;
+    transform: scalez(1);
+  }
+}
+
+.left-home #st {
+  position: relative;
+  animation: text linear 1s;
+  transition: all ease 2s;
+}
+
+@keyframes text {
+  0% {
+    left: -150px;
+    overflow: hidden;
+    transition: all ease 2s;
+  }
+  100% {
+    opacity: 100;
+    left: 0;
+    transition: all ease 2s;
+    transform: scalez(1);
+  }
+}
+
+.left-home #rt {
+  position: relative;
+  animation: name linear 2s;
+  transition: all ease 2s;
+}
+
+@keyframes name {
+  0% {
+    left: -350px;
+    overflow: hidden;
+    transition: all ease 2s;
+  }
+  100% {
+    opacity: 100;
+    left: 0;
+    transition: all ease 2s;
+    transform: scalez(1);
+  }
+}
+.right-home .profile {
+  position: relative;
+  animation: profile linear 1s;
+  transition: all ease 2s;
+}
+
+@keyframes profile {
+  0% {
+    transform: scale(0);
+    overflow: hidden;
+    transition: all ease 2s;
+  }
+  100% {
+    opacity: 100;
+    right: 0;
+    transition: all ease 2s;
+    transform: scalez(1);
+  }
+}
