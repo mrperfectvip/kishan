@@ -1,5 +1,4 @@
 nav {
-  position: absolute;
   animation: run linear 0.7s;
 }
 
@@ -21,13 +20,13 @@ nav {
 
 @keyframes text {
   0% {
-    left: -150px;
+    top: -100px;
     overflow: hidden;
     transition: all ease 2s;
   }
   100% {
     opacity: 100;
-    left: 0;
+    top: 0;
     transition: all ease 2s;
     transform: scalez(1);
   }
@@ -35,7 +34,7 @@ nav {
 
 .left-home #rt {
   position: relative;
-  animation: name linear 2s;
+  animation: name linear 1s;
   transition: all ease 2s;
 }
 
@@ -54,7 +53,7 @@ nav {
 }
 .right-home .profile {
   position: relative;
-  animation: profile linear 1s;
+  animation: profile linear 0.5s;
   transition: all ease 2s;
 }
 

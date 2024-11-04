@@ -1,161 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  html, body {
-    width: 100%;
-    height: 100%;
-    background-color: #aaa;
-  }
-  .container {
-    width: 100%;
-    background-color: #aaa;
-    padding: 0;
-    margin: 0;
-  }
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    height: 60px;
-    width: 100%;
-    background-color: crimson;
-  }
-  nav .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 20vw;
-  }
-  nav .logo i {
-    font-size: 40px;
-    color: white;
-  }
-  .logo h3 {
-    font-size: 25px;
-    color: white;
-    padding-left: 10px;
-  }
-  nav .nav-list {
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 40vw;
-    padding-right: 20px;
-  }
-  nav a {
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-  }
-  nav a:hover {
-    transition:all 1s ease-in-out;
-    border : 1px solid white;
-    border-radius: 5px;
-  }
-  .nav-list .contact {
-    border-radius: 25px;
-    height: 35px;
-    width: 90px;
-    color: black;
-    border: none;
-    padding: 5px;
-    transition: all ease-in-out 0.7s;
-  }
-  .contact:hover {
-    background-color: black;
-    color: white;
-    transition: all ease-in-out 0.7s;
-  }
-  
-  /* nav section end here */
-  .container .home {
-    margin-top: 60px;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10%;
-    padding-top: 10%;
-  }
-  .home .right-home {
-    min-width: 250px;
-    max-height: 250px;
-    display: flex;
-    justify-content: center;
-  }
-  .home .left-home {
-    min-width: 250px;
-    max-height: 250px;
-    height: 300px;
-  }
-  .home .right-home .profile {
-    display: flex;
-    justify-content: center;
-    width: 20vmax;
-    height: 20vmax;
-    box-shadow: 1px 1px 55px crimson, -1px -1px 55px crimson;
-    border-radius: 200px;
-    object-fit: contain;
-    overflow: hidden;
-  }
-  .right-home .profile img {
-    height: 100%;
-  }
-  
-  /* left side home */
-  .home .left-home h1 {
-    font-size: 4vmax;
-    text-align: left;
-    color: black;
-  }
-  .home .left-home h3 {
-    font-size: 2vmax;
-    line-height: 1.2cm;
-  }
-  .home .left-home span {
-    color: #ff4500;
-  }
-  .home .left-home strong {
-    color: white;
-  }
-  .home .left-home button {
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    min-width: 60px;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 25px;
-    background-color: crimson;
-    color: #fff;
-    margin-top: 10%;
-  }
-
-
-  /* media */
-  .media{
-    min-width: 200px;
-    display: flex;
-    justify-content: space-evenly;
-   font-size: 25px;
-   margin-top: 30px;
-  }
-.media a{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #d3d3d3;
+}
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: crimson;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20vw;
+}
+nav .logo i {
+  font-size: 40px;
+  color: #fffff0;
+}
+.logo h3 {
+  font-size: 25px;
+  color: #fffff0;
+  padding-left: 10px;
+}
+nav .nav-list {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 40vw;
+  padding-right: 20px;
+}
+nav .nav-list i {
+  color: #fffff0;
+  display: none;
+}
+nav a {
   text-decoration: none;
-    color:crimson;
-    background-color: black;
-    border-radius: 25px;
-     width: 50px;
-     height: 50px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+  color: white;
+  padding: 8px;
+}
+nav a:hover {
+  transition: all ease 1s;
+  border: 1px solid;
+}
+.nav-list .contact {
+  border-radius: 25px;
+  height: 35px;
+  width: 90px;
+  color: black;
+  border: none;
+  padding: 5px;
+  transition: all ease-in-out 0.7s;
+}
+.contact:hover {
+  background-color: black;
+  color: #fffff0;
+  transition: all ease-in-out 0.7s;
+}
+
+/* nav section end here */
+.container .home {
+  margin-top: 60px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  padding-top: 10%;
+}
+.home .right-home {
+  min-width: 250px;
+  max-height: 250px;
+  display: flex;
+  justify-content: center;
+}
+.home .left-home {
+  min-width: 250px;
+  max-height: auto;
+  overflow: hidden;
+}
+.home .right-home .profile {
+  display: flex;
+  justify-content: center;
+  width: 20vmax;
+  height: 20vmax;
+  box-shadow: 1px 1px 55px crimson, -1px -1px 55px crimson;
+  border-radius: 200px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.right-home .profile img {
+  height: 100%;
+}
+
+/* left side home */
+.home .left-home h1 {
+  font-size: 4vmax;
+  text-align: left;
+  color: black;
+}
+.home .left-home h3 {
+  font-size: 2vmax;
+  line-height: 1.2cm;
+}
+.home .left-home span {
+  color: #ff4500;
+}
+.home .left-home strong {
+  color: #333333;
+}
+
+/* media */
+.media {
+  min-width: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 3.5vmin;
+  margin-top: 18px;
+  width: 100%;
+}
+.media a {
+  text-decoration: none;
+  color: crimson;
+  background-color: black;
+  border-radius: 5vw;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.7s;
+  margin: 10px 0.2vw;
+}
+
+.media a:hover {
+  background-color: crimson;
+  color: white;
 }

@@ -1,87 +1,99 @@
 @media (max-width: 450px) {
-    /* Container adjustments */
-    .container .home {
-      flex-direction: column-reverse;
-      padding: 8% 5%;
-      padding-bottom: 35%;
-      align-items: center;
-    }
-    
-    /* Navigation adjustments */
-    nav {
-      height: 50px;
-      padding: 0 10px;
-    }
-    nav .logo {
-      min-width: 30vw;
-    }
-    nav .logo h3 {
-      font-size: 18px;
-      padding-left: 5px;
-    }
-    nav .logo i {
-      font-size: 30px;
-    }
-    nav .nav-list {
-      font-size: 14px;
-      min-width: 50vw;
-      padding-right: 0;
-    }
-    nav a {
-      padding: 5px;
-    }
-    .nav-list .contact {
-      height: 30px;
-      width: 80px;
-      font-size: 12px;
-    }
-  
-    /* Home section adjustments */
-    .home .right-home, .home .left-home {
-      max-height:unset;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-    .home .left-home{
-     flex-direction: column;
-     align-items: center;
-    }
-    .home .right-home .profile {
-      width: 40vw;
-      height: 40vw;
-      box-shadow: 1px 1px 20px crimson, -1px -1px 20px crimson;
-    }
-    .right-home .profile img {
-      height: 100%;
-      width: 100%;
-    }
-    .home .left-home h1 {
-      font-size: 6vw;
-      text-align: center;
-      letter-spacing: 5px;
-    }
-    .home .left-home h3 {
-      font-size: 4vw;
-      text-align: center;
-      line-height: 1.5em;
-      letter-spacing: 2px;
-    }
-    .home .left-home .media{
-        display: flex;
-         height: 40%;
-         justify-content: center;
-         width: 100%;
-         align-items: center;
+  /* Container adjustments */
+  .container .home {
+    flex-direction: column-reverse;
+    padding-bottom: 40%;
+    align-items: center;
+    height: auto;
+  }
 
-    }
-    .home .left-home .media a{
-        font-size: 20px;
-         margin: 5px;
-         width: 50px;
-         height: 50px;
-        align-items: center;
-    }
+  /* Navigation adjustments */
+  nav {
+    height: 50px;
+    padding: 0 10px;
+    position: fixed;
+    z-index: 999999;
+  }
+  nav .logo {
+    min-width: 30vw;
+  }
+  nav .logo h3 {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  nav .logo i {
+    font-size: 30px;
+  }
+  nav .nav-list {
+    font-size: 22px;
+    padding-right: 5px;
+    justify-content: end;
+  }
+  nav .nav-list i {
+    color: white;
+    display: block;
+  }
+  nav a {
+    padding: 5px;
+    display: none;
+    color: #fffff0;
+  }
+  .nav-list .contact {
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    display: none;
+  }
+
+  /* Home section adjustments */
+  .home .right-home,
+  .home .left-home {
+    max-height: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .home .left-home {
+    height: auto;
+    margin-top: 10%;
+    flex-direction: column;
+  }
+  .home .right-home .profile {
+    width: 40vw;
+    height: 40vw;
+    box-shadow: 1px 1px 20px crimson, -1px -1px 20px crimson;
+  }
+  .right-home .profile img {
+    height: 100%;
+  }
+  .home .left-home h1 {
+    font-size: 6vw;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .home .left-home h3 {
+    font-size: 4vw;
+    text-align: center;
+    line-height: 5vh;
+    letter-spacing: 2px;
+  }
+  .home .left-home .media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .home .left-home .media a {
+    font-size: 20px;
+    margin: 5px;
+    width: 10vmin;
+    height: 10vmin;
+    align-items: center;
+    border-radius: 25px;
+  }
+  .media a:hover {
+    background-color: crimson;
+    color: white;
+  }
 }
-  
