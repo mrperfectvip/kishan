@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    z-index: 1;
   }
   .home .left-home {
     height: auto;
@@ -95,5 +96,41 @@
   .media a:hover {
     background-color: crimson;
     color: white;
+  }
+  .sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 150px;
+    background-color: #dc143cef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10vh 0;
+    padding-bottom: 50vh;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 4;
+    display: none;
+  }
+  .sidebar a{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    align-items: center;
+    width: 90%;
+    text-decoration: none;
+     color: #ffff;
+  }
+  .sidebar button{
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin: auto;
+    border-radius: 35px;
+  }
+  .sidebar i{
+    margin: 10px;
+    font-size: 22px;
   }
 }

@@ -156,3 +156,8 @@ nav a:hover {
   background-color: crimson;
   color: white;
 }
+
+/* side bar code starts here */
+.sidebar{
+  display: none;
+}

@@ -70,3 +70,18 @@ nav {
     transform: scalez(1);
   }
 }
+
+.sidebar{
+  animation: sidebar linear 0.5s;
+  transition: all ease 2s;
+}
+
+@keyframes sidebar {
+   0%{
+    left: -150px;
+   }
+   100%{
+    left: 0px;
+   }
+
+}
