@@ -23,6 +23,6 @@ let check =  ()=>{
         window.location.href="home.html";
     }else{
         alert("Please Enter Valid UserName and Password");
-        window.location.href="login.html";
+        window.location.href="index.html";
     }
 }
