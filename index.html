@@ -1,62 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kishan Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="animation.css" />
-    <link rel="stylesheet" href="media.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <i class="ri-github-fill"></i>
-          <h3>Kishan</h3>
-        </div>
-        <div class="nav-list">
-          <i class="ri-menu-line"></i>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="work.html">Work</a>
-          <a href="skills.html">Skiils</a>
-          <button class="contact">Contact Us</button>
-        </div>
-      </nav>
-      <!-- Hero section -->
-      <div class="home">
-        <div class="left-home">
-          <h1 id="st">Hi There,</h1>
-          <h1 id="rt">I'm Kishan <span>Kumar</span></h1>
-          <h3>I'm a <strong>Frontend Developer</strong></h3>
-          <div class="media">
-            <a href=""><i class="ri-linkedin-box-fill"></i></a>
-            <a href=""><i class="ri-github-fill"></i></a>
-            <a href=""><i class="ri-twitter-line"></i></a>
-            <a href="https://www.telegram.dog/mrprefectVip"
-              ><i class="ri-telegram-2-fill"></i
-            ></a>
-            <a href="https://www.instagram.com/kishan_kk_"
-              ><i class="ri-instagram-line"></i
-            ></a>
-            <a href=""><i class="ri-discord-line"></i></a>
-          </div>
-        </div>
-        <div class="right-home">
-          <div class="profile">
-            <img src="./img/photo_2024-02-24_01-18-09.jpg" alt="" />
-          </div>
-        </div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="loginWrapper">
+        <form class="loginForm">
+            <h2>Login</h2>
+            <div class="login">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="pass">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
     </div>
-    <script src="script.js"></script>
-  </body>
+
+    <script src="login.js"></script>
+</body>
 </html>
