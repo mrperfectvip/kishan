@@ -71,17 +71,16 @@ nav {
   }
 }
 
-.sidebar{
+.sidebar {
   animation: sidebar linear 0.5s;
   transition: all ease 2s;
 }
 
 @keyframes sidebar {
-   0%{
+  0% {
     left: -150px;
-   }
-   100%{
+  }
+  100% {
     left: 0px;
-   }
-
+  }
 }
